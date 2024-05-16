@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="final.styles/final.css" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>FixFirst Services</title>
+  </head>
+
+  <body style=" height: 1700px;">
+    <header>
+      <div class="logo-container">
+        <img class="logo" src="images/transparent.logo.png" alt="cafe logo" />
+      </div>
+      <nav class="navbar">
+        <ul class="sidebar">
+          <li onclick="hideSidebar()"><a href="#"><svg id="closeIcon" xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li class="fourp"><a href= "home.html"  >Home</a></li>
+          <li class="fourp"><a href="about.html">About Us </a></li>
+          <li class="fourp"><a href="contact.html">Contact Us</a></li>
+          <li class="fourp"><a href="feedback.html"> FeedBack</a></li>
+          <li class="fourp"><a href="signUp.html"> Sign up</a></li>
+          <li class="fourp"><a href="logIn.html" style="background-color: rgba(77, 123, 184, 0.1); padding: 20px" > Log In</a></li>
+          <li  id="cap" class="serv"><a href="service.html">Services</a></li>
+          
+        </ul>
+
+        <ul>
+          <li  class="hideOnMobile fourp"><a href= "home.html"  >Home</a></li>
+          <li  class="hideOnMobile fourp"><a href="about.html">About Us </a></li>
+          <li  class="hideOnMobile fourp"><a href="contact.html">Contact Us</a></li>
+          <li  class="hideOnMobile fourp"><a href="feedback.html"> FeedBack</a></li>
+          <li  class="hideOnMobile fourp"><a href="signUp.html"> Sign up</a></li>
+          <li  class="hideOnMobile fourp"><a href="logIn.html" style="background-color: rgba(77, 123, 184, 0.1); padding: 20px"> Log In</a></li>
+          <li  class="hideOnMobile fourp"   id="cap" ><a href="service.html">Services</a></li>
+          <li class="menu-button" onclick="showSidebar()"><a href="#"><svg id="menuIcon"  xmlns="http://www.w3.org/2000/svg" height="33px" viewBox="0 -960 960 960" width="33px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+          
+        </ul>
+      </nav>
+
+      
+    </header>
+
+    <main>
+
+      <img id="img3" src="images/wepik-export-20240211223120wZlV.png" alt="cap" />
+        <div class="contact">
+          <form   id="form"      style="padding: 35px; margin: 50px;  width: 500px; height: 500px;" action="/submit_form" method="post" action="/your-action" novalidate>
+            <h2>Sign In</h2>
+            <br>
+            <label class="labels" for="email">Email</label><br>
+            <input class="inputs" type="email" id="email" name="email" required /><br>
+            <span id="email_error" style="
+            color: red; 
+            "></span>
+            <br>
+            <br>
+            <label for="password" class="labels" >Password</label>
+            <input class="inputs"  id="password"  type="password" name="password"> <br>
+            <span id="pass_error" style="
+            color: red; 
+            "></span>
+             <br> <br>
+            <button  type="submit"  id="butn">LOGIN</button> <br> <br>
+            <span id="success_Message"></span> <br> 
+          </form>
+        </div>
+
+        
+      
+        
+    
+
+    </main>
+
+
+
+    <footer class="first-3-page-footer">
+      <div class="footer-social-media">
+        <div><p>Get connected with us on social networks:</p></div>
+        <div class="social_media_log">
+          <img
+            src="social.media.prf.pics/facebook-fill.png"
+            alt="facebook_logo"
+          />
+          <img src="social.media.prf.pics/twitter-fill.png" alt="X_logo" />
+          <img
+            src="social.media.prf.pics/github-fill.png"
+            alt="instagram_logo"
+          />
+          <img
+            src="social.media.prf.pics/linkedin-box-fill.png"
+            alt="linkedin_logo"
+          />
+          <img
+            src="social.media.prf.pics/instagram-line.png"
+            alt="github-logo"
+          />
+        </div>
+      </div>
+
+      <div class="footer-other">
+        <div class="footer-about">
+          <h4>FIXFIRST SERVICES</h4>
+          <p>
+            Welcome to FixFirst Services, a leading provider <br />in the
+            Repairing and Maintenance Services industry. <br />
+            Our commitment is to deliver exceptional services <br />that ensure
+            your equipment and facilities are always <br />
+            at peak performance. Our team, composed of highly <br />
+            skilled professionals, uses state-of-the-art tools and
+            <br />techniques to provide efficient, reliable, and affordable
+            <br />
+            solutions. We understand the critical role of well-kept<br />
+            equipment and facilities in your operations. At FixFirst
+            <br />Services, we prioritize your satisfaction and strive to <br />
+            exceed your expectations with our services. Trust us to <br />keep
+            your operations running smoothly. FixFirst Services <br />excels in
+            innovation and commitment. We invest in the <br />
+            latest technology and proactive problem-solving to stay <br />
+            ahead in our industry. We offer personalized service plans <br />
+            to meet unique client needs. With us, you gain a partner
+            <br />dedicated to your operation’s success.
+          </p>
+        </div>
+
+        <div class="📧">
+          <h4>CHECK SERVICE AVAILABILITY IN YOUR COUNTRY </h4>
+          <div class="search-box">
+            <input  id="searchInput"   type="text" placeholder="Search" list="countries-datalist">
+            <datalist id="countries-datalist"></datalist>
+          </div>
+          <br />
+          <br />
+            <div class="address-footer">
+              <img src="icons/map-pin-line.png" alt="location_logo" />
+              <p>292 E. Oak Valley Ave. Elmont, NY 11003</p>
+            </div>
+            <br />
+            <div class="address-footer">
+              <img src="icons/mail-line.png" alt="Email" />
+              <p>FixFirstServices@gmail.com</p>
+            </div>
+            <br />
+            <div class="address-footer">
+              <img src="icons/phone-line.png" alt="Phone_logo" />
+              <p>+1 4842 9897 49</p>
+            </div>
+            <br />
+            <div class="address-footer">
+              <img src="icons/window-fill.png" alt="Web_logo" />
+              <p>FixFirstServices.com</p>
+            </div>
+        </div>
+
+        <div class="working-hours">
+          <h4>OPENING HOURS</h4>
+
+          <table>
+            <tbody>
+              <tr>
+                <td>Mon - Thu:</td>
+                <td>8am - 9pm</td>
+              </tr>
+              <tr>
+                <td>Fri - Sat:</td>
+                <td>8am - 1am</td>
+              </tr>
+              <tr>
+                <td>Sunday:</td>
+                <td>9am - 10pm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="copyright">&copy; 2024 Copyright: FixFirstServices</div>
+    </footer>
+
+
+    <script src ="login.js"></script>
+  </body>
+</html>
